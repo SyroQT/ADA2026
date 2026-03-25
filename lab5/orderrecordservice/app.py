@@ -32,5 +32,5 @@ def create_order():
 
 
 if __name__ == "__main__":
-    app.wsgi_app = LoggingMiddleware(app.wsgi_app)
+    # app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     app.run(host='0.0.0.0', port=5000, debug=True)

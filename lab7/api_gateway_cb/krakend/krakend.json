@@ -20,7 +20,7 @@
           "encoding": "json",
           "method": "GET",
           "host": [
-            "http://order_record_service_ct:5000/"
+            "http://orderrecordservice:5000/"
           ],
           "disable_host_sanitize": false,
           "mapping": {
@@ -42,7 +42,7 @@
           "encoding": "json",
           "method": "GET",
           "host": [
-            "http://inventory_service_ct:5000/"
+            "http://inventoryservice:5000/"
           ],
           "disable_host_sanitize": true,
           "extra_config": {},
